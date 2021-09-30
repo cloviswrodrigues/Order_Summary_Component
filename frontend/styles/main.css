@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 :root{
     --pale-blue: hsl(225, 100%, 94%);
@@ -70,7 +70,7 @@ body {
 
 .card_content p {
     color: rgba(128, 128, 128, 0.8);
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .card_content > p {    
@@ -84,13 +84,13 @@ body {
     height: 100px;
     background-color: rgb(222,230,255,0.2);
     border-radius: 15px; 
-    display: flex;   
+    display: flex; 
     align-items: center;
-    padding:0px 15px;
+    padding:0px 10px;
 }
 
 .purchase img {
-    transform: scale(1.2);
+    transform: scale(1);
 }
 
 .purchase_content {
@@ -98,13 +98,13 @@ body {
 }
 
 .purchase_content h2{    
-    font-size: .9em;
-    font-weight: 700;   
+    font-size: 1em;
+    font-weight: 900;   
 }
 
 .purchase_content p {
     color: rgba(128, 128, 128, 0.8);
-    font-size: .9em;
+    font-size: 1em;
 }
 
 .purchase a {
@@ -126,7 +126,7 @@ body {
     color: white;
     box-shadow: 0px 20px 15px rgba(56,41,224,0.19);    
     font-size: .9em;
-    font-weight: 750;    
+    font-weight: 700;    
     cursor: pointer;
 }
 
@@ -139,7 +139,7 @@ body {
     background-color: inherit;    
     color: rgba(128, 128, 128, 0.8);
     font-size: .9em;
-    font-weight: 750;
+    font-weight: 700;
     cursor: pointer;
 }
 
