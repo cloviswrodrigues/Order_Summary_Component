@@ -14,10 +14,9 @@
     box-sizing: border-box;
 }
 
-body {
+body {   
+    background: url(../assets/pattern-background-mobile.svg) no-repeat;    
     background-color: var(--pale-blue);
-    background-image: url(../assets/pattern-background-desktop.svg);    
-    background-repeat: repeat-x;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;    
 }
@@ -144,8 +143,13 @@ body {
 }
 
 @media screen and (min-width: 500px ){
+
+    body {
+        background: url(../assets/pattern-background-desktop.svg) repeat-x; 
+        background-color: var(--pale-blue);
+    }
     
-    .card {
+    .card {   
         width: 450px;
         height: 650px;
     }
